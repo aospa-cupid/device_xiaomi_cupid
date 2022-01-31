@@ -14,6 +14,9 @@
 
 DEVICE_PATH := device/xiaomi/cupid
 
+# Bootloader
+TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/configs/board/board-info.txt
+
 # OTA
 TARGET_OTA_ASSERT_DEVICE := cupid|22011223G
 

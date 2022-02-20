@@ -449,4 +449,7 @@
          relies on this value will not be sized correctly. -->
     <item format="float" name="pixel_pitch" type="dimen">60.61</item>
 
+     <!-- Type of the udfps long press sensor. Empty if long press is not supported. -->
+     <string name="config_dozeUdfpsLongPressSensorType" translatable="false">co.aospa.sensor.udfps</string>
+
 </resources>

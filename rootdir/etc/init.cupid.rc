@@ -22,3 +22,8 @@ service qti_esepowermanager_service_1_1 /vendor/bin/hw/vendor.qti.esepowermanage
     group nfc system
     override
     enabled
+
+on boot
+    # Powershare
+    chown system system /sys/class/qcom-battery/reverse_chg_mode
+    chmod 0666 /sys/class/qcom-battery/reverse_chg_mode

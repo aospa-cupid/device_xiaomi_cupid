@@ -1,0 +1,9 @@
+#
+# Copyright (C) 2021-2024 Paranoid Android
+# SPDX-License-Identifier: Apache-2.0
+#
+
+on boot
+    # Powershare
+    chown system system /sys/class/qcom-battery/reverse_chg_mode
+    chmod 0666 /sys/class/qcom-battery/reverse_chg_mode

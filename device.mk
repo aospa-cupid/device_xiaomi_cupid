@@ -36,6 +36,13 @@ PRODUCT_PACKAGES += \
     CupidWifiOverlay \
     CupidWifiMainlineOverlay
 
+# Powershare
+PRODUCT_PACKAGES += \
+    vendor.aospa.powershare-service
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/init.cupid.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cupid.rc
+
 # Sensors
 PRODUCT_PACKAGES += \
     sensors.xiaomi

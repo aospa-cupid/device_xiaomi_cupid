@@ -22,6 +22,9 @@ $(call inherit-product, vendor/xiaomi/cupid/cupid-vendor.mk)
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.product.mod_device=cupid_global
 
+# Kernel
+KERNEL_PREBUILT_DIR := $(LOCAL_PATH)-kernel
+
 # Overlays
 PRODUCT_PACKAGES += \
     AOSPACupidFrameworksOverlay \

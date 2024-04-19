@@ -23,6 +23,7 @@ PRODUCT_PACKAGES += \
     AOSPACupidFrameworksOverlay \
     CupidFrameworksOverlay \
     CupidNfcOverlay \
+    CupidSettingsOverlay \
     CupidSettingsProviderOverlay \
     CupidSystemUIOverlay \
     CupidWifiOverlay \

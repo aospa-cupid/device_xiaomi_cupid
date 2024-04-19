@@ -20,6 +20,9 @@ TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/configs/board/board-info.txt
 # OTA
 TARGET_OTA_ASSERT_DEVICE := cupid|22011223G
 
+# Screen density
+TARGET_SCREEN_DENSITY := 440
+
 # Inherit from sm8450-common
 include device/xiaomi/sm8450-common/BoardConfigCommon.mk
 

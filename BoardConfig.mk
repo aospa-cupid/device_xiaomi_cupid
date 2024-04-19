@@ -14,6 +14,9 @@
 
 DEVICE_PATH := device/xiaomi/cupid
 
+# OTA
+TARGET_OTA_ASSERT_DEVICE := cupid|22011223G
+
 # Inherit from sm8450-common
 include device/xiaomi/sm8450-common/BoardConfigCommon.mk
 

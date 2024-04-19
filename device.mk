@@ -18,6 +18,10 @@ $(call inherit-product, device/xiaomi/sm8450-common/common.mk)
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/cupid/cupid-vendor.mk)
 
+# Camera
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.product.mod_device=cupid_global
+
 # Overlays
 PRODUCT_PACKAGES += \
     AOSPACupidFrameworksOverlay \

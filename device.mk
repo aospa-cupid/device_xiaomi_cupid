@@ -60,7 +60,8 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    sensors.xiaomi
+    sensors.xiaomi \
+    disp2slpi
 
 PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.audio.us.proximity=true \

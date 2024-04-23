@@ -22,6 +22,10 @@ $(call inherit-product, vendor/xiaomi/cupid/cupid-vendor.mk)
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.product.mod_device=cupid_global
 
+# Display - DC Dimming
+PRODUCT_VENDOR_PROPERTIES += \
+    ro.vendor.display.dc_dimming_supported=true
+
 # Kernel
 KERNEL_PREBUILT_DIR := $(LOCAL_PATH)-kernel
 

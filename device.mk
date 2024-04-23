@@ -19,6 +19,11 @@ PRODUCT_CHARACTERISTICS := nosdcard
 PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.display.dc_dimming_supported=true
 
+# Display - timers
+PRODUCT_ODM_PROPERTIES += \
+    ro.surface_flinger.set_idle_timer_ms=1000 \
+    ro.surface_flinger.set_touch_timer_ms=200
+
 # Fingerprint
 PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.fx.tunnel@1.0.vendor

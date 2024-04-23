@@ -40,6 +40,12 @@ PRODUCT_PACKAGES += \
     CupidWifiOverlay \
     CupidWifiMainlineOverlay
 
+# NFC
+TARGET_NFC_SKU := cupid
+
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    persist.nfc.camera.pause_polling=true
+
 # Powershare
 PRODUCT_PACKAGES += \
     vendor.aospa.powershare-service

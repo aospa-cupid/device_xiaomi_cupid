@@ -15,6 +15,10 @@ PRODUCT_SYSTEM_PROPERTIES += \
 # Characteristics
 PRODUCT_CHARACTERISTICS := nosdcard
 
+# Display - DC Dimming
+PRODUCT_VENDOR_PROPERTIES += \
+    ro.vendor.display.dc_dimming_supported=true
+
 # Fingerprint
 PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.fx.tunnel@1.0.vendor

@@ -33,4 +33,10 @@
     <!-- The width/height of the unlock icon view on keyguard. -->
     <dimen name="keyguard_indication_margin_bottom">4dp</dimen>
 
+    <!-- Default rounded corner curve (a Bezier). Must match (the curved path in) rounded.xml.
+         Note that while rounded.xml includes the entire path (including the horizontal and vertical
+         corner edges), this pulls out just the curve.
+     -->
+    <string name="config_rounded_mask" translatable="false">M 0 0 L 0 167 C 0 167 0 147.1 2 127 C 4.751 99.418 10.766 63.206 37 37 C 67.958 6.076 108.965 0 167 0 L 0 0 Z</string>
+
 </resources>

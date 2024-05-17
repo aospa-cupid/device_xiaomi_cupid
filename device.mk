@@ -31,6 +31,10 @@ PRODUCT_ODM_PROPERTIES += \
 PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.display.dc_dimming_supported=true
 
+# Graphics
+PRODUCT_VENDOR_PROPERTIES += \
+    ro.gfx.driver.1=com.qualcomm.qti.gpudrivers.taro.api31
+
 # Kernel
 KERNEL_PREBUILT_DIR := $(LOCAL_PATH)-kernel
 

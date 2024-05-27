@@ -31,6 +31,10 @@ PRODUCT_ODM_PROPERTIES += \
 PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.display.dc_dimming_supported=true
 
+# Multi-gen LRU
+PRODUCT_VENDOR_PROPERTIES += \
+    persist.device_config.mglru_native.lru_gen_config=core_and_mm_walk
+
 # Graphics
 PRODUCT_VENDOR_PROPERTIES += \
     ro.gfx.driver.1=com.qualcomm.qti.gpudrivers.taro.api31

@@ -7,3 +7,7 @@ on boot
     # Powershare
     chown system system /sys/class/qcom-battery/reverse_chg_mode
     chmod 0666 /sys/class/qcom-battery/reverse_chg_mode
+
+# SSG tuning
+on property:vendor.post_boot.parsed=1
+    write /dev/blkio/background/blkio.ssg.max_available_ratio 25

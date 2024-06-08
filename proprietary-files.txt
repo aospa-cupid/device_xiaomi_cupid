@@ -1072,6 +1072,10 @@ vendor/etc/sensors/config/tmd3719.json
 vendor/etc/sensors/sensorDisplayMap.json
 vendor/etc/sensors/sns_reg_config
 
+# Thermal
+vendor/bin/thermal-engine-v2
+vendor/etc/init/init_thermal-engine-v2.rc
+
 # Thermal configs
 vendor/etc/thermal-4k.conf
 vendor/etc/thermal-abnormal.conf

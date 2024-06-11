@@ -914,6 +914,14 @@ vendor/lib64/camera/com.qti.tuned.cupid_sunny_ov13b10_ultra.bin
 vendor/lib64/camera/com.qti.tuned.cupid_sunny_s5k5e9_macro.bin
 vendor/lib64/hw/com.qti.chi.override.so
 
+# CIT Sensors
+vendor/bin/hw/vendor.xiaomi.sensor.citsensorservice@2.0-service
+vendor/etc/init/vendor.xiaomi.sensor.citsensorservice@2.0-service.rc
+vendor/etc/vintf/manifest/vendor.xiaomi.sensor.citsensorservice@2.0-service.xml
+vendor/lib64/hw/vendor.xiaomi.sensor.citsensorservice@2.0-impl.so
+vendor/lib64/vendor.xiaomi.sensor.citsensorservice@1.1.so
+vendor/lib64/vendor.xiaomi.sensor.citsensorservice@2.0.so
+
 # Display
 vendor/bin/hw/vendor.qti.hardware.display.composer-service
 vendor/lib64/libclient2slpi.notifier.so
@@ -1197,3 +1205,6 @@ vendor/firmware/3_thud_P_RTP.bin
 vendor/firmware/4_pop_P_RTP.bin
 vendor/firmware/5_heavyClick_P_RTP.bin
 vendor/firmware/aw8697_haptic.bin
+
+# Missing
+vendor/lib64/libcrussp.so

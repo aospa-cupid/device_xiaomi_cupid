@@ -91,6 +91,7 @@ vendor/lib64/libar-gsl.so
 vendor/lib64/libar-pal.so
 vendor/lib64/libats.so
 vendor/lib64/libbatterylistener.so
+vendor/lib64/libcrussp
 vendor/lib64/libfmpal.so
 vendor/lib64/libkaraokepal.so
 vendor/lib64/liblx-ar_util.so

@@ -8,6 +8,10 @@ on boot
     chown system system /sys/class/qcom-battery/reverse_chg_mode
     chmod 0666 /sys/class/qcom-battery/reverse_chg_mode
 
+    # Touchscreen - UDFPS
+    chown system system /sys/class/touch/touch_dev/fod_longpress_gesture_enabled
+    chmod 0660 /sys/class/touch/touch_dev/fod_longpress_gesture_enabled
+
 # SSG tuning
 on property:vendor.post_boot.parsed=1
     write /dev/blkio/background/blkio.ssg.max_available_ratio 25

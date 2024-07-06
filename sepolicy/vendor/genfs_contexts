@@ -1,2 +1,5 @@
 # Battery
 genfscon sysfs /class/qcom-battery/reverse_chg_mode                                 u:object_r:sysfs_powershare:s0
+
+# Fingerprint
+genfscon sysfs /devices/virtual/touch/touch_dev/fod_longpress_gesture_enabled       u:object_r:vendor_sysfs_touch:s0

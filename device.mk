@@ -22,6 +22,10 @@ $(call inherit-product, vendor/xiaomi/cupid/cupid-vendor.mk)
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.product.mod_device=cupid_global
 
+# Display - config
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/displayconfig/display_id_4630946545580055170.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946545580055170.xml
+
 # Display - timers
 PRODUCT_ODM_PROPERTIES += \
     ro.surface_flinger.set_idle_timer_ms?=1000 \

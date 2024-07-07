@@ -91,7 +91,7 @@ vendor/lib64/libar-gsl.so
 vendor/lib64/libar-pal.so
 vendor/lib64/libats.so
 vendor/lib64/libbatterylistener.so
-vendor/lib64/libcrussp
+vendor/lib64/libcrussp.so
 vendor/lib64/libfmpal.so
 vendor/lib64/libkaraokepal.so
 vendor/lib64/liblx-ar_util.so
@@ -986,7 +986,6 @@ vendor/etc/display/qdcm_calib_data_xiaomi_42_02_0a_mp_cmd_mode_dsc_dsi_panel.jso
 vendor/etc/mdss_dsi_l3_42_02_0a_dsc_cmd_mi.xml
 
 # Display configs
-product/etc/displayconfig/display_id_4630946545580055170.xml:vendor/etc/displayconfig/display_id_4630946545580055170.xml
 vendor/etc/snapdragon_color_libs_config.xml
 
 # Fingerprint

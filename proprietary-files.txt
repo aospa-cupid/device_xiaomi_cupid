@@ -1,4 +1,4 @@
-# Device proprietary files - from cupid HyperOS V816.0.3.0.ULCEUXM package, unless pinned
+# Device proprietary files - from cupid HyperOS V816.0.10.0.ULCEUXM package, unless pinned
 
 # ADSP modules
 vendor/lib/rfsa/adsp/bm2n00.bin

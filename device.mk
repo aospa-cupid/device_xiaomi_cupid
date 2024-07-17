@@ -82,3 +82,8 @@ PRODUCT_COPY_FILES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+
+# Naming overrides
+PRODUCT_VENDOR_PROPERTIES += \
+   bluetooth.device.default_name=Xiaomi 12 \
+   vendor.usb.product_string=Xiaomi 12 \

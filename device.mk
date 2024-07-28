@@ -72,6 +72,9 @@ PRODUCT_VENDOR_PROPERTIES += \
     vendor.audio.ultrasound.stoplatency=60 \
     vendor.audio.ultrasound.usync=1000
 
+PRODUCT_VENDOR_PROPERTIES += \
+    ro.vendor.sensors.notifier.light_sensors=5
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
 

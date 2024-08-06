@@ -1033,12 +1033,18 @@ vendor/firmware/a730_zap.mdt
 vendor/firmware/gmu_gen70000.bin
 
 # Media (Dolby)
-vendor/etc/dolby/dax-default.xml
 vendor/etc/dolby_vision.cfg
 
 # Sensors
-vendor/lib64/libssccalapi@2.0.so
+-vendor/lib64/libssccalapi@2.0.so
 vendor/lib64/libsdsprpc.so
+
+# Sensors - sensorscalibrate
+vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service
+vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc
+vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml
+vendor/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so
+vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
 
 # Sensors config
 vendor/etc/sensors/calibratedCheck.json
@@ -1104,6 +1110,10 @@ vendor/etc/sensors/config/tcs3408.json
 vendor/etc/sensors/config/tmd3719.json
 vendor/etc/sensors/sensorDisplayMap.json
 vendor/etc/sensors/sns_reg_config
+
+# Thermal
+vendor/bin/thermal-engine-v2
+vendor/etc/init/init_thermal-engine-v2.rc
 
 # Thermal configs
 vendor/etc/thermal-4k.conf

@@ -1045,6 +1045,8 @@ vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc
 vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml
 vendor/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
+vendor/lib64/libsensor_calibration.so
+vendor/lib64/libsensorcal.so
 
 # Sensors config
 vendor/etc/sensors/calibratedCheck.json

@@ -39,4 +39,8 @@
      -->
     <string name="config_rounded_mask" translatable="false">M 0 0 L 0 167 C 0 167 0 147.1 2 127 C 4.751 99.418 10.766 63.206 37 37 C 67.958 6.076 108.965 0 167 0 L 0 0 Z</string>
 
+    <!-- Microns/ums (1000 um = 1mm) per pixel for the given device. If unspecified, UI that
+        relies on this value will not be sized correctly. -->
+    <item name="pixel_pitch" format="float" type="dimen">60.61</item>
+
 </resources>

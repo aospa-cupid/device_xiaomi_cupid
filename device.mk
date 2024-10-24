@@ -25,6 +25,11 @@ PRODUCT_ODM_PROPERTIES += \
     ro.surface_flinger.set_touch_timer_ms=200
 
 # Fingerprint
+PRODUCT_VENDOR_PROPERTIES += \
+    persist.vendor.fingerprint.type=udfps_optical \
+    persist.vendor.fingerprint.sensor_location=540|2163|107 \
+    persist.vendor.fingerprint.sensor_modules=goodix_fod
+
 PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.fx.tunnel@1.0.vendor
 

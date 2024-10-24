@@ -35,6 +35,12 @@ PRODUCT_ODM_PROPERTIES += \
 PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.display.dc_dimming_supported=true
 
+# Fingerprint
+PRODUCT_VENDOR_PROPERTIES += \
+    persist.vendor.fingerprint.type=udfps_optical \
+    persist.vendor.fingerprint.sensor_location=540|2163|107 \
+    persist.vendor.fingerprint.sensor_modules=goodix_fod
+
 # Kernel
 KERNEL_PREBUILT_DIR := $(LOCAL_PATH)-kernel
 

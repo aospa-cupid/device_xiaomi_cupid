@@ -1008,6 +1008,9 @@ vendor/firmware/gmu_gen70000.bin
 # Media (Dolby)
 vendor/etc/dolby_vision.cfg
 
+# NV MAC address
+vendor/bin/nv_mac
+
 # Sensors
 vendor/lib64/hw/vendor.xiaomi.sensor.citsensorservice@2.0-impl.so
 vendor/lib64/libssccalapi@2.0.so

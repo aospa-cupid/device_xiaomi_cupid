@@ -7,31 +7,18 @@ service nqnfc_2_0_hal_service /vendor/bin/hw/vendor.nxp.hardware.nfc@2.0-service
     user nfc
     group nfc
     override
-    disabled
+    enabled
 
 service secureelement-hal_1_2 /vendor/bin/hw/vendor.qti.secure_element@1.2-service
     class early_hal
     user system
     group system
     override
-    disabled
+    enabled
 
 service qti_esepowermanager_service_1_1 /vendor/bin/hw/vendor.qti.esepowermanager@1.1-service
     class early_hal
     user system
     group nfc system
     override
-    disabled
-
-# Do not enable NFC on marblein
-on property:ro.boot.product.hardware.sku=marble
-    enable nqnfc_2_0_hal_service
-    enable secureelement-hal_1_2
-    enable qti_esepowermanager_service_1_1
-
-service mfp-daemon /vendor/bin/hw/mfp-daemon
-    override
-    class late_start
-    user system
-    group system drmrpc diag input uhid
-    capabilities SYS_NICE
+    enabled

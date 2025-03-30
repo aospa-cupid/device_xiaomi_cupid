@@ -39,24 +39,14 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    AOSPAMarbleFrameworksOverlay \
-    MarbleApertureOverlay \
-    MarbleCNSettingsOverlay \
-    MarbleCNSettingsProviderOverlay \
-    MarbleCNWifiOverlay \
-    MarbleCNWifiMainlineOverlay \
-    MarbleFrameworksOverlay \
-    MarbleGLSettingsOverlay \
-    MarbleGLSettingsProviderOverlay \
-    MarbleGLWifiOverlay \
-    MarbleGLWifiMainlineOverlay \
-    MarbleINSettingsOverlay \
-    MarbleINSettingsProviderOverlay \
-    MarbleINWifiOverlay \
-    MarbleINWifiMainlineOverlay \
-    MarbleNfcOverlay \
-    MarbleSettingsOverlay \
-    MarbleSystemUIOverlay
+    AOSPACupidFrameworksOverlay \
+    CupidApertureOverlay \
+    CupidFrameworksOverlay \
+    CupidSettingsProviderOverlay \
+    CupidWifiOverlay \
+    CupidWifiMainlineOverlay \
+    CupidNfcOverlay \
+    CupidSystemUIOverlay
 
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 33

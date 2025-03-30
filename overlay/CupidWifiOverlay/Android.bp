@@ -1,0 +1,11 @@
+runtime_resource_overlay {
+    name: "CupidGLWifiOverlay",
+    manifest: "AndroidManifest.xml",
+    device_specific: true,
+}
+
+runtime_resource_overlay {
+    name: "CupidWifiMainlineOverlay",
+    manifest: "AndroidManifestMainline.xml",
+    device_specific: true,
+}

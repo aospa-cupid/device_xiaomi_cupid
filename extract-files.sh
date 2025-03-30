@@ -13,7 +13,7 @@ fi
 
 set -e
 
-export DEVICE=marble
+export DEVICE=cupid
 export DEVICE_COMMON=sm8450-common
 export VENDOR=xiaomi
 export VENDOR_COMMON=${VENDOR}

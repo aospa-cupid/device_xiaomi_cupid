@@ -7,7 +7,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),marble)
+ifeq ($(TARGET_DEVICE),cupid)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 

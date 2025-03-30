@@ -1,1 +1,1 @@
-require board=taro|cupid|22011223G
+require board=taro|cupid|2201123G
